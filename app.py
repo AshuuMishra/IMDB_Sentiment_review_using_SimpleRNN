@@ -13,7 +13,7 @@ word_index=imdb.get_word_index()
 reverse_word_index={value:key for key,value in word_index.items()}
 
 # Load trained model
-model = load_model("model.h5")
+model = tf.keras.models.load_model("model.h5")
 
 # step-2 Helper function to decode the reviews
 def decode_review(encoded_review):
