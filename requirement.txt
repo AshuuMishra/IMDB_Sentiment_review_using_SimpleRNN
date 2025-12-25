@@ -1,0 +1,8 @@
+
+
+
+streamlit==1.25.0   # or your current working version
+tensorflow==2.14.0
+numpy
+pandas
+scikit-learn
